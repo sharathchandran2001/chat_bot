@@ -5,7 +5,7 @@ import axios from 'axios';
   providedIn: 'root'
 })
 export class ChatService {
-  private apiUrl = 'http://localhost:8000/chat';
+  private apiUrl = 'http://localhost:8000/chat'; // backend FastAPI URL
   private sessionId: string | null = null;
 
   async sendMessage(message: string): Promise<string> {
