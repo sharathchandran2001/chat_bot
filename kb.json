@@ -1,0 +1,47 @@
+[
+  {
+    "example": "hello",
+    "intent": "greeting",
+    "response": "Hello, how can I help you?\nFeel free to ask any question."
+  },
+  {
+    "example": "hi",
+    "intent": "greeting",
+    "response": "Hello, how can I help you?\nI am here to assist you."
+  },
+  {
+    "example": "who are you",
+    "intent": "about_bot",
+    "response": "I am MiniBot, your friendly AI assistant.\nI can answer questions and help you navigate topics."
+  },
+  {
+    "example": "what can you do",
+    "intent": "capabilities",
+    "response": "I can answer basic questions from my knowledge base.\nI can also try to understand new questions via AI."
+  },
+  {
+    "example": "goodbye",
+    "intent": "farewell",
+    "response": "Goodbye and take care!\nSee you soon!"
+  },
+  {
+    "example": "what is python",
+    "intent": "tech_info",
+    "response": "Python is a programming language used for AI, data science, and web apps.\nIt is popular and versatile."
+  },
+  {
+    "example": "what is angular",
+    "intent": "tech_info",
+    "response": "Angular is a frontend framework for building single-page web applications.\nIt uses TypeScript and components."
+  },
+  {
+    "example": "what is machine learning",
+    "intent": "tech_info",
+    "response": "Machine learning teaches computers to learn patterns from data.\nIt is a subset of AI."
+  },
+  {
+    "example": "what is fastapi",
+    "intent": "tech_info",
+    "response": "FastAPI is a modern Python framework for building fast backend APIs.\nIt uses type hints and async programming."
+  }
+]
